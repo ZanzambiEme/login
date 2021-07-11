@@ -1,0 +1,16 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+.box{
+    width: 500px;
+    margin: 2% auto;
+    padding: 25px;
+}
+.box input[type='text']:focus, .box input[type='password']:focus{
+    border-color: none;
+    box-shadow: none;
+    outline: none;
+}
+.center{text-align: center;}
+
+
